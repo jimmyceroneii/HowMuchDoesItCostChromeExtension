@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "How Much Does It Cost",
+  "version": "1.0",
+  "description": "Our app displays the opportunity cost of items, assuming you invested the money for 10 years at 5% instead.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
