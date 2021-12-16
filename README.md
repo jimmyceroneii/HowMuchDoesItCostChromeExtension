@@ -6,7 +6,7 @@ The Chrome Extension as it currently functions parses HTML looking for dollar si
 
 From there, I put the opportunity cost in with the original cost for comparison.
 
-### Improvements
+## Improvements
 
 Finding price by looking for dollar signs is not a great way to do things. It is adequate, but in the future I'd love to convert this extension to Typescript and make sure all prices are numbers to avoid grievous errors.
 
